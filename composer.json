@@ -1,0 +1,5 @@
+{
+    "require": {
+        "ronanguilloux/php-gpio": "^1.0"
+    }
+}

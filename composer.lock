@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "483a1c30d76f427d2480610ec42539db",
+    "content-hash": "22254d57441f734b7d7a4863547eca59",
+    "packages": [
+        {
+            "name": "ronanguilloux/php-gpio",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ronanguilloux/php-gpio.git",
+                "reference": "2f2bcbfbe8bb27883d814375500a9755dae70d36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ronanguilloux/php-gpio/zipball/2f2bcbfbe8bb27883d814375500a9755dae70d36",
+                "reference": "2f2bcbfbe8bb27883d814375500a9755dae70d36",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PhpGpio": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ronan Guilloux",
+                    "email": "ronan.guilloux@gmail.com",
+                    "homepage": "http://github.com/ronanguilloux",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GPIO-related utils & toolkit PHP library",
+            "homepage": "https://github.com/ronanguilloux/php-gpio",
+            "keywords": [
+                "GPIO",
+                "chip",
+                "chipset",
+                "hardware",
+                "input",
+                "output",
+                "pin",
+                "port",
+                "raspberry",
+                "raspberry pi",
+                "sensors"
+            ],
+            "time": "2013-06-24 16:53:23"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
